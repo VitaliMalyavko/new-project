@@ -72,6 +72,7 @@ header{
         font-size: 22px;
         font-weight: 300;
         line-height: 26px;
+        
     }
     .head{
         font-family: 'Rubik, sans-serif';
@@ -81,7 +82,7 @@ header{
         margin-top: 10px;
         margin-bottom: 5px;
     }
-    .info-container__text-mid{
+    &__text-mid{
         font-family: 'Rubik, sans-serif';
         font-size: 20px;
         line-height: 24px;
@@ -97,11 +98,11 @@ header{
         padding: 18px 117px 18px 49px;
         background: #3355FF;
     }
-    .info-container__buttom:hover{
+    &__buttom:hover{
         background:#1631B6;
         transition: 1s;
     }
-    .info-container__text-bottom{
+    &__text-bottom{
         display: inline-block;
         color: #343A40;  
         font-family: 'Poppins, sans-serif';
@@ -109,7 +110,7 @@ header{
         line-height: 24px;
         margin-left: 70px;
     }
-    .info-container__img-button{
+    &__img-button{
         position: absolute;
         margin-left: 24px;
 
@@ -137,7 +138,7 @@ header{
             top: 663px;
         
                 
-            .info-card__info-items__cripto{
+            &__info-items__cripto{
                 padding: 43px 64px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
@@ -160,7 +161,7 @@ header{
                 }
     
             }
-            .info-card__info-items__capital{
+            &__info-items__capital{
                 padding: 42px 27px 48px 28px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
@@ -184,7 +185,7 @@ header{
                 }
             }
     
-            .info-card__info-items__volume{
+            &__info-items__volume{
                 padding: 43px 30px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
@@ -208,7 +209,7 @@ header{
     
     
             }
-            .info-card__info-items__btc{
+            &__info-items__btc{
                 padding: 43px 57px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 34px rgba(208, 208, 208, 0.4);
@@ -254,23 +255,23 @@ header{
 
                 .content-items__text-card{
                     position: relative;
-                .content-items__text-card__box{
+                &__box{
                     padding: 60px 20px 40px 40px;
                     width: 316px;
                     background: #fff;
                 }
 
-                    .content-items__text-card__text-head{
+                    &__text-head{
                     color: #343A40;
                     font-family: 'Poppins, sans-serif';
                     font-size: 18px;
                     font-weight: 700;
                     line-height: 30px;
                 }
-                .content-items__text-card__text-descr{
+                &__text-descr{
                     @include text-characteristics
                 }
-                .content-items__text-card__text-head-botton{
+                &__text-head-botton{
                     color: #343A40;
                     margin-top: 20px;
                     font-family: 'Poppins, sans-serif';
@@ -278,35 +279,35 @@ header{
                     font-weight: 600;
                     line-height: 24px;
                 }
-                .content-items__text-card__logo-rocket{
+                &__logo-rocket{
                     padding: 20px 20px;
                     background: white;
                     position: absolute;
                     top: -16%;
                     left: 10%;
                 }
-                .content-items__text-card__logo-graf{
+                &__logo-graf{
                     padding: 20px 20px;
                     background: white;
                     position: absolute;
                     top: -16%;
                     left: 10%;
                 }
-                .content-items__text-card__logo-time{
+                &__logo-time{
                     padding: 20px 20px;
                     background: white;
                     position: absolute;
                     top: -14%;
                     left: 10%;
                 }
-                .content-items__text-card__logo-table{
+                &__logo-table{
                     padding: 20px 20px;
                     background: white;
                     position: absolute;
                     top: -14%;
                     left: 10%;
                 }
-                .content-items__text-card__logo-device{
+                &__logo-device{
                     padding: 20px 20px;
                     background: white;
                     position: absolute;
@@ -332,7 +333,7 @@ header{
     margin: 0 auto;
     padding-bottom: 229px;
 
-    .content-description-box{
+    &-box{
         width: 42%;
 
         h3{
@@ -349,26 +350,26 @@ header{
             font-weight: 600;
             line-height: 37px;
         }
-        .content-description-box__text{
+        &-box__text{
             font-family: 'Poppins, sans-serif';
             font-size: 16px;
             line-height: 24px;
         }
     }
 
-    .content-description__imgtop{
+    &__imgtop{
         margin-left: 195px;
     }
-    .content-description__imgbotton{
+    &__imgbotton{
         margin-left: 195px;
     }
-    .content-description__imgcenter{
+    &__imgcenter{
         margin: 76px 166px 107px 70px;
     }
-    .content-description-box__centre-title{
+    &-box__centre-title{
         margin-top: 119px;
     }
-    .content-description-box__top-title{
+    &-box__top-title{
         margin-top: 36px;
     }
    
@@ -378,21 +379,20 @@ header{
 .aside-container{
     background: #4867FF;
 
-    .aside-container__image-phone-left{
+    &__image-phone-left{
        position: relative; 
-     
-        left: 420px;
-        top: -350px;
+       left: 420px;
+       top: -350px;
         
     }
 
-    .aside-container__image-phone-right{
+    &__image-phone-right{
         position: relative;
         left: 636px;
         top: -987px;
     }
     
-    .aside-container__text-block{
+    &__text-block{
         width: 80%;
         margin: 0 auto;
         height: 376px;
@@ -407,7 +407,7 @@ header{
 
 
         }
-        .aside-container__text-block__text-head{
+        &__text-head{
             font-family: 'Rubik, sans-serif';
             font-size: 74px;
             font-weight: 700;
@@ -417,7 +417,7 @@ header{
             
       
         }
-        .aside-container__text-block__button{
+        &__button{
             text-decoration: none;
             color: white;
             font-family: 'Poppins, sans-serif';
@@ -429,10 +429,10 @@ header{
             border: 1px solid #fff;
             border-radius: 4px;           
         }
-        .aside-container__text-block__button:hover{
+        &__button:hover{
             background: #1631B6;
             transition: 1s;
-            .aside-container__text-block__button-image{
+            &-image{
                 margin-left: 8px;
             }
 
@@ -488,7 +488,7 @@ header{
         display: flex;
     
         
-        .form-container__text-block{
+        &__text-block{
             h5{        
                 font-family: 'Rubik, sans-serif';
                 font-size: 42px;
@@ -503,7 +503,7 @@ header{
                 line-height: 24px;
             }
         }
-            .form-container__input-name{
+            &__input-name{
                 background: #EDEEEF;
                 border: 1px solid #E3E5E6;
                 box-sizing: border-box;
@@ -512,7 +512,7 @@ header{
                 height: 65px;
                 margin: 0 3%;    
             }
-            .form-container__input-mail{
+            &__input-mail{
                 background: #EDEEEF;
                 border: 1px solid #E3E5E6;
                 box-sizing: border-box;
@@ -521,7 +521,7 @@ header{
                 height: 65px; 
             }
 
-            .form-container__input-comment{
+            &__input-comment{
                 background: #EDEEEF;
                 border: 1px solid #E3E5E6;
                 box-sizing: border-box;
