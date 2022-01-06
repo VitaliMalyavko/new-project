@@ -251,7 +251,7 @@ header {
   padding-bottom: 161px;
 }
 
-.content-cards .content-items .content-items__text-head {
+.content-cards .content-items__text-head {
   color: #343A40;
   font-family: 'Rubik, sans-serif';
   font-size: 42px;
@@ -259,6 +259,10 @@ header {
   line-height: 50px;
   width: 21%;
   margin-right: 100px;
+}
+
+.content-cards .content-items .content-items__text-card {
+  position: relative;
 }
 
 .content-cards .content-items .content-items__text-card .content-items__text-card__box {
@@ -294,41 +298,45 @@ header {
 .content-cards .content-items .content-items__text-card .content-items__text-card__logo-rocket {
   padding: 20px 20px;
   background: white;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: -16%;
   left: 10%;
 }
 
 .content-cards .content-items .content-items__text-card .content-items__text-card__logo-graf {
   padding: 20px 20px;
   background: white;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: -16%;
   left: 10%;
 }
 
 .content-cards .content-items .content-items__text-card .content-items__text-card__logo-time {
   padding: 20px 20px;
   background: white;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: -14%;
   left: 10%;
 }
 
 .content-cards .content-items .content-items__text-card .content-items__text-card__logo-table {
   padding: 20px 20px;
   background: white;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: -14%;
   left: 10%;
 }
 
 .content-cards .content-items .content-items__text-card .content-items__text-card__logo-device {
   padding: 20px 20px;
   background: white;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: -14%;
   left: 10%;
+}
+
+.content-items__text-card_bottom-block {
+  margin-top: 11%;
 }
 
 .content-description {
